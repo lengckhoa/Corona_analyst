@@ -1,0 +1,2066 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0415.1144                               -->
+<workbook original-version='18.1' source-build='2022.1.1 (20221.22.0415.1144)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='CoronaData_Country_Daxuli+' inline='true' name='federated.1dmu98u184zwap18gwyel0qv1xdd' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='CoronaData_Country_20220505_Daxuli' name='textscan.0u2lvde1br7bje17t1efx0rpmfeu'>
+            <connection class='textscan' directory='C:/Users/ASUS' filename='CoronaData_Country_20220505_Daxuli.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0u2lvde1br7bje17t1efx0rpmfeu' name='CoronaData_Country_20220520_Daxuli.csv' table='[CoronaData_Country_20220520_Daxuli#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+            <column datatype='integer' name='Ranking' ordinal='2' />
+            <column datatype='string' name='Country' ordinal='3' />
+            <column datatype='integer' name='Total Cases' ordinal='4' />
+            <column datatype='integer' name='New Cases' ordinal='5' />
+            <column datatype='integer' name='Total Deaths' ordinal='6' />
+            <column datatype='integer' name='New Deaths' ordinal='7' />
+            <column datatype='integer' name='Total Recovered' ordinal='8' />
+            <column datatype='integer' name='New Recovered' ordinal='9' />
+            <column datatype='integer' name='Active Cases' ordinal='10' />
+            <column datatype='integer' name='Serious Cases' ordinal='11' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.0u2lvde1br7bje17t1efx0rpmfeu' name='CoronaData_Country_20220520_Daxuli.csv' table='[CoronaData_Country_20220520_Daxuli#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+              <column datatype='integer' name='Ranking' ordinal='2' />
+              <column datatype='string' name='Country' ordinal='3' />
+              <column datatype='integer' name='Total Cases' ordinal='4' />
+              <column datatype='integer' name='New Cases' ordinal='5' />
+              <column datatype='integer' name='Total Deaths' ordinal='6' />
+              <column datatype='integer' name='New Deaths' ordinal='7' />
+              <column datatype='integer' name='Total Recovered' ordinal='8' />
+              <column datatype='integer' name='New Recovered' ordinal='9' />
+              <column datatype='integer' name='Active Cases' ordinal='10' />
+              <column datatype='integer' name='Serious Cases' ordinal='11' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0u2lvde1br7bje17t1efx0rpmfeu' name='CoronaData_Country_20220521_Daxuli.csv' table='[CoronaData_Country_20220521_Daxuli#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+              <column datatype='integer' name='Ranking' ordinal='2' />
+              <column datatype='string' name='Country' ordinal='3' />
+              <column datatype='integer' name='Total Cases' ordinal='4' />
+              <column datatype='integer' name='New Cases' ordinal='5' />
+              <column datatype='integer' name='Total Deaths' ordinal='6' />
+              <column datatype='integer' name='New Deaths' ordinal='7' />
+              <column datatype='integer' name='Tota lRecovered' ordinal='8' />
+              <column datatype='integer' name='New Recovered' ordinal='9' />
+              <column datatype='integer' name='Active Cases' ordinal='10' />
+              <column datatype='integer' name='Serious Cases' ordinal='11' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0u2lvde1br7bje17t1efx0rpmfeu' name='CoronaData_Country_20220522_Daxuli.csv' table='[CoronaData_Country_20220522_Daxuli#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+              <column datatype='integer' name='Ranking' ordinal='2' />
+              <column datatype='string' name='Country' ordinal='3' />
+              <column datatype='integer' name='Total Cases' ordinal='4' />
+              <column datatype='integer' name='New Cases' ordinal='5' />
+              <column datatype='integer' name='Total Deaths' ordinal='6' />
+              <column datatype='integer' name='New Deaths' ordinal='7' />
+              <column datatype='integer' name='Total Recovered' ordinal='8' />
+              <column datatype='integer' name='New Recovered' ordinal='9' />
+              <column datatype='integer' name='Active Cases' ordinal='10' />
+              <column datatype='integer' name='Serious Cases' ordinal='11' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0u2lvde1br7bje17t1efx0rpmfeu' name='CoronaData_Country_20220523_Daxuli.csv' table='[CoronaData_Country_20220523_Daxuli#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+              <column datatype='integer' name='Ranking' ordinal='2' />
+              <column datatype='string' name='Country' ordinal='3' />
+              <column datatype='integer' name='Total Cases' ordinal='4' />
+              <column datatype='integer' name='New Cases' ordinal='5' />
+              <column datatype='integer' name='Total Deaths' ordinal='6' />
+              <column datatype='integer' name='New Deaths' ordinal='7' />
+              <column datatype='integer' name='Total Recoverd' ordinal='8' />
+              <column datatype='integer' name='New Recoverd' ordinal='9' />
+              <column datatype='integer' name='Active Cases' ordinal='10' />
+              <column datatype='integer' name='Serious Cases' ordinal='11' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0u2lvde1br7bje17t1efx0rpmfeu' name='CoronaData_Country_20220524_Daxuli.csv' table='[CoronaData_Country_20220524_Daxuli#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+              <column datatype='integer' name='Ranking' ordinal='2' />
+              <column datatype='string' name='Country' ordinal='3' />
+              <column datatype='integer' name='Total Cases' ordinal='4' />
+              <column datatype='integer' name='New Cases' ordinal='5' />
+              <column datatype='integer' name='Total Deaths' ordinal='6' />
+              <column datatype='integer' name='New Deaths' ordinal='7' />
+              <column datatype='integer' name='Total Recoverd' ordinal='8' />
+              <column datatype='integer' name='New Recoverd' ordinal='9' />
+              <column datatype='integer' name='Active Cases' ordinal='10' />
+              <column datatype='integer' name='Serious Cases' ordinal='11' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0u2lvde1br7bje17t1efx0rpmfeu' name='CoronaData_Country_20220525_Daxuli.csv' table='[CoronaData_Country_20220525_Daxuli#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+              <column datatype='integer' name='Ranking' ordinal='2' />
+              <column datatype='string' name='Country' ordinal='3' />
+              <column datatype='integer' name='Total Cases' ordinal='4' />
+              <column datatype='integer' name='New Cases' ordinal='5' />
+              <column datatype='integer' name='Total Deaths' ordinal='6' />
+              <column datatype='integer' name='New Deaths' ordinal='7' />
+              <column datatype='integer' name='Total Recoverd' ordinal='8' />
+              <column datatype='integer' name='New Recoverd' ordinal='9' />
+              <column datatype='integer' name='Active Cases' ordinal='10' />
+              <column datatype='integer' name='Serious Cases' ordinal='11' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[Active Cases (CoronaData_Country_20220521_Daxuli.csv)]' value='[CoronaData_Country_20220521_Daxuli.csv].[Active Cases]' />
+          <map key='[Active Cases (CoronaData_Country_20220522_Daxuli.csv)]' value='[CoronaData_Country_20220522_Daxuli.csv].[Active Cases]' />
+          <map key='[Active Cases (CoronaData_Country_20220523_Daxuli.csv)]' value='[CoronaData_Country_20220523_Daxuli.csv].[Active Cases]' />
+          <map key='[Active Cases (CoronaData_Country_20220524_Daxuli.csv)]' value='[CoronaData_Country_20220524_Daxuli.csv].[Active Cases]' />
+          <map key='[Active Cases (CoronaData_Country_20220525_Daxuli.csv)]' value='[CoronaData_Country_20220525_Daxuli.csv].[Active Cases]' />
+          <map key='[Active Cases]' value='[CoronaData_Country_20220520_Daxuli.csv].[Active Cases]' />
+          <map key='[Country (CoronaData_Country_20220521_Daxuli.csv)]' value='[CoronaData_Country_20220521_Daxuli.csv].[Country]' />
+          <map key='[Country (CoronaData_Country_20220522_Daxuli.csv)]' value='[CoronaData_Country_20220522_Daxuli.csv].[Country]' />
+          <map key='[Country (CoronaData_Country_20220523_Daxuli.csv)]' value='[CoronaData_Country_20220523_Daxuli.csv].[Country]' />
+          <map key='[Country (CoronaData_Country_20220524_Daxuli.csv)]' value='[CoronaData_Country_20220524_Daxuli.csv].[Country]' />
+          <map key='[Country (CoronaData_Country_20220525_Daxuli.csv)]' value='[CoronaData_Country_20220525_Daxuli.csv].[Country]' />
+          <map key='[Country]' value='[CoronaData_Country_20220520_Daxuli.csv].[Country]' />
+          <map key='[F1 (CoronaData_Country_20220521_Daxuli.csv)]' value='[CoronaData_Country_20220521_Daxuli.csv].[F1]' />
+          <map key='[F1 (CoronaData_Country_20220522_Daxuli.csv)]' value='[CoronaData_Country_20220522_Daxuli.csv].[F1]' />
+          <map key='[F1 (CoronaData_Country_20220523_Daxuli.csv)]' value='[CoronaData_Country_20220523_Daxuli.csv].[F1]' />
+          <map key='[F1 (CoronaData_Country_20220524_Daxuli.csv)]' value='[CoronaData_Country_20220524_Daxuli.csv].[F1]' />
+          <map key='[F1 (CoronaData_Country_20220525_Daxuli.csv)]' value='[CoronaData_Country_20220525_Daxuli.csv].[F1]' />
+          <map key='[F1]' value='[CoronaData_Country_20220520_Daxuli.csv].[F1]' />
+          <map key='[New Cases (CoronaData_Country_20220521_Daxuli.csv)]' value='[CoronaData_Country_20220521_Daxuli.csv].[New Cases]' />
+          <map key='[New Cases (CoronaData_Country_20220522_Daxuli.csv)]' value='[CoronaData_Country_20220522_Daxuli.csv].[New Cases]' />
+          <map key='[New Cases (CoronaData_Country_20220523_Daxuli.csv)]' value='[CoronaData_Country_20220523_Daxuli.csv].[New Cases]' />
+          <map key='[New Cases (CoronaData_Country_20220524_Daxuli.csv)]' value='[CoronaData_Country_20220524_Daxuli.csv].[New Cases]' />
+          <map key='[New Cases (CoronaData_Country_20220525_Daxuli.csv)]' value='[CoronaData_Country_20220525_Daxuli.csv].[New Cases]' />
+          <map key='[New Cases]' value='[CoronaData_Country_20220520_Daxuli.csv].[New Cases]' />
+          <map key='[New Deaths (CoronaData_Country_20220521_Daxuli.csv)]' value='[CoronaData_Country_20220521_Daxuli.csv].[New Deaths]' />
+          <map key='[New Deaths (CoronaData_Country_20220522_Daxuli.csv)]' value='[CoronaData_Country_20220522_Daxuli.csv].[New Deaths]' />
+          <map key='[New Deaths (CoronaData_Country_20220523_Daxuli.csv)]' value='[CoronaData_Country_20220523_Daxuli.csv].[New Deaths]' />
+          <map key='[New Deaths (CoronaData_Country_20220524_Daxuli.csv)]' value='[CoronaData_Country_20220524_Daxuli.csv].[New Deaths]' />
+          <map key='[New Deaths (CoronaData_Country_20220525_Daxuli.csv)]' value='[CoronaData_Country_20220525_Daxuli.csv].[New Deaths]' />
+          <map key='[New Deaths]' value='[CoronaData_Country_20220520_Daxuli.csv].[New Deaths]' />
+          <map key='[New Recoverd (CoronaData_Country_20220524_Daxuli.csv)]' value='[CoronaData_Country_20220524_Daxuli.csv].[New Recoverd]' />
+          <map key='[New Recoverd (CoronaData_Country_20220525_Daxuli.csv)]' value='[CoronaData_Country_20220525_Daxuli.csv].[New Recoverd]' />
+          <map key='[New Recoverd]' value='[CoronaData_Country_20220523_Daxuli.csv].[New Recoverd]' />
+          <map key='[New Recovered (CoronaData_Country_20220521_Daxuli.csv)]' value='[CoronaData_Country_20220521_Daxuli.csv].[New Recovered]' />
+          <map key='[New Recovered (CoronaData_Country_20220522_Daxuli.csv)]' value='[CoronaData_Country_20220522_Daxuli.csv].[New Recovered]' />
+          <map key='[New Recovered]' value='[CoronaData_Country_20220520_Daxuli.csv].[New Recovered]' />
+          <map key='[Ranking (CoronaData_Country_20220521_Daxuli.csv)]' value='[CoronaData_Country_20220521_Daxuli.csv].[Ranking]' />
+          <map key='[Ranking (CoronaData_Country_20220522_Daxuli.csv)]' value='[CoronaData_Country_20220522_Daxuli.csv].[Ranking]' />
+          <map key='[Ranking (CoronaData_Country_20220523_Daxuli.csv)]' value='[CoronaData_Country_20220523_Daxuli.csv].[Ranking]' />
+          <map key='[Ranking (CoronaData_Country_20220524_Daxuli.csv)]' value='[CoronaData_Country_20220524_Daxuli.csv].[Ranking]' />
+          <map key='[Ranking (CoronaData_Country_20220525_Daxuli.csv)]' value='[CoronaData_Country_20220525_Daxuli.csv].[Ranking]' />
+          <map key='[Ranking]' value='[CoronaData_Country_20220520_Daxuli.csv].[Ranking]' />
+          <map key='[Serious Cases (CoronaData_Country_20220521_Daxuli.csv)]' value='[CoronaData_Country_20220521_Daxuli.csv].[Serious Cases]' />
+          <map key='[Serious Cases (CoronaData_Country_20220522_Daxuli.csv)]' value='[CoronaData_Country_20220522_Daxuli.csv].[Serious Cases]' />
+          <map key='[Serious Cases (CoronaData_Country_20220523_Daxuli.csv)]' value='[CoronaData_Country_20220523_Daxuli.csv].[Serious Cases]' />
+          <map key='[Serious Cases (CoronaData_Country_20220524_Daxuli.csv)]' value='[CoronaData_Country_20220524_Daxuli.csv].[Serious Cases]' />
+          <map key='[Serious Cases (CoronaData_Country_20220525_Daxuli.csv)]' value='[CoronaData_Country_20220525_Daxuli.csv].[Serious Cases]' />
+          <map key='[Serious Cases]' value='[CoronaData_Country_20220520_Daxuli.csv].[Serious Cases]' />
+          <map key='[Tota lRecovered]' value='[CoronaData_Country_20220521_Daxuli.csv].[Tota lRecovered]' />
+          <map key='[Total Cases (CoronaData_Country_20220521_Daxuli.csv)]' value='[CoronaData_Country_20220521_Daxuli.csv].[Total Cases]' />
+          <map key='[Total Cases (CoronaData_Country_20220522_Daxuli.csv)]' value='[CoronaData_Country_20220522_Daxuli.csv].[Total Cases]' />
+          <map key='[Total Cases (CoronaData_Country_20220523_Daxuli.csv)]' value='[CoronaData_Country_20220523_Daxuli.csv].[Total Cases]' />
+          <map key='[Total Cases (CoronaData_Country_20220524_Daxuli.csv)]' value='[CoronaData_Country_20220524_Daxuli.csv].[Total Cases]' />
+          <map key='[Total Cases (CoronaData_Country_20220525_Daxuli.csv)]' value='[CoronaData_Country_20220525_Daxuli.csv].[Total Cases]' />
+          <map key='[Total Cases]' value='[CoronaData_Country_20220520_Daxuli.csv].[Total Cases]' />
+          <map key='[Total Deaths (CoronaData_Country_20220521_Daxuli.csv)]' value='[CoronaData_Country_20220521_Daxuli.csv].[Total Deaths]' />
+          <map key='[Total Deaths (CoronaData_Country_20220522_Daxuli.csv)]' value='[CoronaData_Country_20220522_Daxuli.csv].[Total Deaths]' />
+          <map key='[Total Deaths (CoronaData_Country_20220523_Daxuli.csv)]' value='[CoronaData_Country_20220523_Daxuli.csv].[Total Deaths]' />
+          <map key='[Total Deaths (CoronaData_Country_20220524_Daxuli.csv)]' value='[CoronaData_Country_20220524_Daxuli.csv].[Total Deaths]' />
+          <map key='[Total Deaths (CoronaData_Country_20220525_Daxuli.csv)]' value='[CoronaData_Country_20220525_Daxuli.csv].[Total Deaths]' />
+          <map key='[Total Deaths]' value='[CoronaData_Country_20220520_Daxuli.csv].[Total Deaths]' />
+          <map key='[Total Recoverd (CoronaData_Country_20220524_Daxuli.csv)]' value='[CoronaData_Country_20220524_Daxuli.csv].[Total Recoverd]' />
+          <map key='[Total Recoverd (CoronaData_Country_20220525_Daxuli.csv)]' value='[CoronaData_Country_20220525_Daxuli.csv].[Total Recoverd]' />
+          <map key='[Total Recoverd]' value='[CoronaData_Country_20220523_Daxuli.csv].[Total Recoverd]' />
+          <map key='[Total Recovered (CoronaData_Country_20220522_Daxuli.csv)]' value='[CoronaData_Country_20220522_Daxuli.csv].[Total Recovered]' />
+          <map key='[Total Recovered]' value='[CoronaData_Country_20220520_Daxuli.csv].[Total Recovered]' />
+          <map key='[Unnamed: 0 (CoronaData_Country_20220521_Daxuli.csv)]' value='[CoronaData_Country_20220521_Daxuli.csv].[Unnamed: 0]' />
+          <map key='[Unnamed: 0 (CoronaData_Country_20220522_Daxuli.csv)]' value='[CoronaData_Country_20220522_Daxuli.csv].[Unnamed: 0]' />
+          <map key='[Unnamed: 0 (CoronaData_Country_20220523_Daxuli.csv)]' value='[CoronaData_Country_20220523_Daxuli.csv].[Unnamed: 0]' />
+          <map key='[Unnamed: 0 (CoronaData_Country_20220524_Daxuli.csv)]' value='[CoronaData_Country_20220524_Daxuli.csv].[Unnamed: 0]' />
+          <map key='[Unnamed: 0 (CoronaData_Country_20220525_Daxuli.csv)]' value='[CoronaData_Country_20220525_Daxuli.csv].[Unnamed: 0]' />
+          <map key='[Unnamed: 0]' value='[CoronaData_Country_20220520_Daxuli.csv].[Unnamed: 0]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[CoronaData_Country_20220520_Daxuli.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[CoronaData_Country_20220521_Daxuli.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[CoronaData_Country_20220522_Daxuli.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[CoronaData_Country_20220523_Daxuli.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[CoronaData_Country_20220524_Daxuli.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[CoronaData_Country_20220525_Daxuli.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[CoronaData_Country_20220520_Daxuli.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220520_Daxuli.csv_2856A13048084A698524145D1DBE75BD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 0]</local-name>
+            <parent-name>[CoronaData_Country_20220520_Daxuli.csv]</parent-name>
+            <remote-alias>Unnamed: 0</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220520_Daxuli.csv_2856A13048084A698524145D1DBE75BD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ranking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ranking]</local-name>
+            <parent-name>[CoronaData_Country_20220520_Daxuli.csv]</parent-name>
+            <remote-alias>Ranking</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220520_Daxuli.csv_2856A13048084A698524145D1DBE75BD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[CoronaData_Country_20220520_Daxuli.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220520_Daxuli.csv_2856A13048084A698524145D1DBE75BD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Cases]</local-name>
+            <parent-name>[CoronaData_Country_20220520_Daxuli.csv]</parent-name>
+            <remote-alias>Total Cases</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220520_Daxuli.csv_2856A13048084A698524145D1DBE75BD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Cases]</local-name>
+            <parent-name>[CoronaData_Country_20220520_Daxuli.csv]</parent-name>
+            <remote-alias>New Cases</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220520_Daxuli.csv_2856A13048084A698524145D1DBE75BD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Deaths]</local-name>
+            <parent-name>[CoronaData_Country_20220520_Daxuli.csv]</parent-name>
+            <remote-alias>Total Deaths</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220520_Daxuli.csv_2856A13048084A698524145D1DBE75BD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Deaths]</local-name>
+            <parent-name>[CoronaData_Country_20220520_Daxuli.csv]</parent-name>
+            <remote-alias>New Deaths</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220520_Daxuli.csv_2856A13048084A698524145D1DBE75BD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Recovered</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Recovered]</local-name>
+            <parent-name>[CoronaData_Country_20220520_Daxuli.csv]</parent-name>
+            <remote-alias>Total Recovered</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220520_Daxuli.csv_2856A13048084A698524145D1DBE75BD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Recovered</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Recovered]</local-name>
+            <parent-name>[CoronaData_Country_20220520_Daxuli.csv]</parent-name>
+            <remote-alias>New Recovered</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220520_Daxuli.csv_2856A13048084A698524145D1DBE75BD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Active Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Active Cases]</local-name>
+            <parent-name>[CoronaData_Country_20220520_Daxuli.csv]</parent-name>
+            <remote-alias>Active Cases</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220520_Daxuli.csv_2856A13048084A698524145D1DBE75BD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Serious Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Serious Cases]</local-name>
+            <parent-name>[CoronaData_Country_20220520_Daxuli.csv]</parent-name>
+            <remote-alias>Serious Cases</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220520_Daxuli.csv_2856A13048084A698524145D1DBE75BD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (CoronaData_Country_20220521_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220521_Daxuli.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220521_Daxuli.csv_2B3ADC32FF6A4CDC9C0C1F7EFA75D651]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 0 (CoronaData_Country_20220521_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220521_Daxuli.csv]</parent-name>
+            <remote-alias>Unnamed: 0</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220521_Daxuli.csv_2B3ADC32FF6A4CDC9C0C1F7EFA75D651]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ranking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ranking (CoronaData_Country_20220521_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220521_Daxuli.csv]</parent-name>
+            <remote-alias>Ranking</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220521_Daxuli.csv_2B3ADC32FF6A4CDC9C0C1F7EFA75D651]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country (CoronaData_Country_20220521_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220521_Daxuli.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220521_Daxuli.csv_2B3ADC32FF6A4CDC9C0C1F7EFA75D651]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Cases (CoronaData_Country_20220521_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220521_Daxuli.csv]</parent-name>
+            <remote-alias>Total Cases</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220521_Daxuli.csv_2B3ADC32FF6A4CDC9C0C1F7EFA75D651]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Cases (CoronaData_Country_20220521_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220521_Daxuli.csv]</parent-name>
+            <remote-alias>New Cases</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220521_Daxuli.csv_2B3ADC32FF6A4CDC9C0C1F7EFA75D651]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Deaths (CoronaData_Country_20220521_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220521_Daxuli.csv]</parent-name>
+            <remote-alias>Total Deaths</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220521_Daxuli.csv_2B3ADC32FF6A4CDC9C0C1F7EFA75D651]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Deaths (CoronaData_Country_20220521_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220521_Daxuli.csv]</parent-name>
+            <remote-alias>New Deaths</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220521_Daxuli.csv_2B3ADC32FF6A4CDC9C0C1F7EFA75D651]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tota lRecovered</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tota lRecovered]</local-name>
+            <parent-name>[CoronaData_Country_20220521_Daxuli.csv]</parent-name>
+            <remote-alias>Tota lRecovered</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220521_Daxuli.csv_2B3ADC32FF6A4CDC9C0C1F7EFA75D651]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Recovered</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Recovered (CoronaData_Country_20220521_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220521_Daxuli.csv]</parent-name>
+            <remote-alias>New Recovered</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220521_Daxuli.csv_2B3ADC32FF6A4CDC9C0C1F7EFA75D651]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Active Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Active Cases (CoronaData_Country_20220521_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220521_Daxuli.csv]</parent-name>
+            <remote-alias>Active Cases</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220521_Daxuli.csv_2B3ADC32FF6A4CDC9C0C1F7EFA75D651]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Serious Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Serious Cases (CoronaData_Country_20220521_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220521_Daxuli.csv]</parent-name>
+            <remote-alias>Serious Cases</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220521_Daxuli.csv_2B3ADC32FF6A4CDC9C0C1F7EFA75D651]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (CoronaData_Country_20220522_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220522_Daxuli.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220522_Daxuli.csv_7296D2958CAA4DC38A576113B66CFE09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 0 (CoronaData_Country_20220522_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220522_Daxuli.csv]</parent-name>
+            <remote-alias>Unnamed: 0</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220522_Daxuli.csv_7296D2958CAA4DC38A576113B66CFE09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ranking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ranking (CoronaData_Country_20220522_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220522_Daxuli.csv]</parent-name>
+            <remote-alias>Ranking</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220522_Daxuli.csv_7296D2958CAA4DC38A576113B66CFE09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country (CoronaData_Country_20220522_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220522_Daxuli.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220522_Daxuli.csv_7296D2958CAA4DC38A576113B66CFE09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Cases (CoronaData_Country_20220522_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220522_Daxuli.csv]</parent-name>
+            <remote-alias>Total Cases</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220522_Daxuli.csv_7296D2958CAA4DC38A576113B66CFE09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Cases (CoronaData_Country_20220522_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220522_Daxuli.csv]</parent-name>
+            <remote-alias>New Cases</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220522_Daxuli.csv_7296D2958CAA4DC38A576113B66CFE09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Deaths (CoronaData_Country_20220522_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220522_Daxuli.csv]</parent-name>
+            <remote-alias>Total Deaths</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220522_Daxuli.csv_7296D2958CAA4DC38A576113B66CFE09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Deaths (CoronaData_Country_20220522_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220522_Daxuli.csv]</parent-name>
+            <remote-alias>New Deaths</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220522_Daxuli.csv_7296D2958CAA4DC38A576113B66CFE09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Recovered</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Recovered (CoronaData_Country_20220522_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220522_Daxuli.csv]</parent-name>
+            <remote-alias>Total Recovered</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220522_Daxuli.csv_7296D2958CAA4DC38A576113B66CFE09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Recovered</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Recovered (CoronaData_Country_20220522_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220522_Daxuli.csv]</parent-name>
+            <remote-alias>New Recovered</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220522_Daxuli.csv_7296D2958CAA4DC38A576113B66CFE09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Active Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Active Cases (CoronaData_Country_20220522_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220522_Daxuli.csv]</parent-name>
+            <remote-alias>Active Cases</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220522_Daxuli.csv_7296D2958CAA4DC38A576113B66CFE09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Serious Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Serious Cases (CoronaData_Country_20220522_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220522_Daxuli.csv]</parent-name>
+            <remote-alias>Serious Cases</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220522_Daxuli.csv_7296D2958CAA4DC38A576113B66CFE09]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (CoronaData_Country_20220523_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220523_Daxuli.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220523_Daxuli.csv_35713CEF1581473EBD61909F8AA4FEA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 0 (CoronaData_Country_20220523_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220523_Daxuli.csv]</parent-name>
+            <remote-alias>Unnamed: 0</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220523_Daxuli.csv_35713CEF1581473EBD61909F8AA4FEA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ranking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ranking (CoronaData_Country_20220523_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220523_Daxuli.csv]</parent-name>
+            <remote-alias>Ranking</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220523_Daxuli.csv_35713CEF1581473EBD61909F8AA4FEA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country (CoronaData_Country_20220523_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220523_Daxuli.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220523_Daxuli.csv_35713CEF1581473EBD61909F8AA4FEA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Cases (CoronaData_Country_20220523_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220523_Daxuli.csv]</parent-name>
+            <remote-alias>Total Cases</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220523_Daxuli.csv_35713CEF1581473EBD61909F8AA4FEA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Cases (CoronaData_Country_20220523_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220523_Daxuli.csv]</parent-name>
+            <remote-alias>New Cases</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220523_Daxuli.csv_35713CEF1581473EBD61909F8AA4FEA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Deaths (CoronaData_Country_20220523_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220523_Daxuli.csv]</parent-name>
+            <remote-alias>Total Deaths</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220523_Daxuli.csv_35713CEF1581473EBD61909F8AA4FEA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Deaths (CoronaData_Country_20220523_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220523_Daxuli.csv]</parent-name>
+            <remote-alias>New Deaths</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220523_Daxuli.csv_35713CEF1581473EBD61909F8AA4FEA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Recoverd</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Recoverd]</local-name>
+            <parent-name>[CoronaData_Country_20220523_Daxuli.csv]</parent-name>
+            <remote-alias>Total Recoverd</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220523_Daxuli.csv_35713CEF1581473EBD61909F8AA4FEA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Recoverd</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Recoverd]</local-name>
+            <parent-name>[CoronaData_Country_20220523_Daxuli.csv]</parent-name>
+            <remote-alias>New Recoverd</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220523_Daxuli.csv_35713CEF1581473EBD61909F8AA4FEA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Active Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Active Cases (CoronaData_Country_20220523_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220523_Daxuli.csv]</parent-name>
+            <remote-alias>Active Cases</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220523_Daxuli.csv_35713CEF1581473EBD61909F8AA4FEA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Serious Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Serious Cases (CoronaData_Country_20220523_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220523_Daxuli.csv]</parent-name>
+            <remote-alias>Serious Cases</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220523_Daxuli.csv_35713CEF1581473EBD61909F8AA4FEA5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (CoronaData_Country_20220524_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220524_Daxuli.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220524_Daxuli.csv_F0D69C2B391246758B1D2855A8485B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 0 (CoronaData_Country_20220524_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220524_Daxuli.csv]</parent-name>
+            <remote-alias>Unnamed: 0</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220524_Daxuli.csv_F0D69C2B391246758B1D2855A8485B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ranking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ranking (CoronaData_Country_20220524_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220524_Daxuli.csv]</parent-name>
+            <remote-alias>Ranking</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220524_Daxuli.csv_F0D69C2B391246758B1D2855A8485B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country (CoronaData_Country_20220524_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220524_Daxuli.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220524_Daxuli.csv_F0D69C2B391246758B1D2855A8485B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Cases (CoronaData_Country_20220524_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220524_Daxuli.csv]</parent-name>
+            <remote-alias>Total Cases</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220524_Daxuli.csv_F0D69C2B391246758B1D2855A8485B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Cases (CoronaData_Country_20220524_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220524_Daxuli.csv]</parent-name>
+            <remote-alias>New Cases</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220524_Daxuli.csv_F0D69C2B391246758B1D2855A8485B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Deaths (CoronaData_Country_20220524_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220524_Daxuli.csv]</parent-name>
+            <remote-alias>Total Deaths</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220524_Daxuli.csv_F0D69C2B391246758B1D2855A8485B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Deaths (CoronaData_Country_20220524_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220524_Daxuli.csv]</parent-name>
+            <remote-alias>New Deaths</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220524_Daxuli.csv_F0D69C2B391246758B1D2855A8485B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Recoverd</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Recoverd (CoronaData_Country_20220524_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220524_Daxuli.csv]</parent-name>
+            <remote-alias>Total Recoverd</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220524_Daxuli.csv_F0D69C2B391246758B1D2855A8485B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Recoverd</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Recoverd (CoronaData_Country_20220524_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220524_Daxuli.csv]</parent-name>
+            <remote-alias>New Recoverd</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220524_Daxuli.csv_F0D69C2B391246758B1D2855A8485B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Active Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Active Cases (CoronaData_Country_20220524_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220524_Daxuli.csv]</parent-name>
+            <remote-alias>Active Cases</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220524_Daxuli.csv_F0D69C2B391246758B1D2855A8485B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Serious Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Serious Cases (CoronaData_Country_20220524_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220524_Daxuli.csv]</parent-name>
+            <remote-alias>Serious Cases</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220524_Daxuli.csv_F0D69C2B391246758B1D2855A8485B5B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1 (CoronaData_Country_20220525_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220525_Daxuli.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220525_Daxuli.csv_5B40A671C3D04E4CBE36DDE8A53FE13E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 0 (CoronaData_Country_20220525_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220525_Daxuli.csv]</parent-name>
+            <remote-alias>Unnamed: 0</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220525_Daxuli.csv_5B40A671C3D04E4CBE36DDE8A53FE13E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ranking</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ranking (CoronaData_Country_20220525_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220525_Daxuli.csv]</parent-name>
+            <remote-alias>Ranking</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220525_Daxuli.csv_5B40A671C3D04E4CBE36DDE8A53FE13E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country (CoronaData_Country_20220525_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220525_Daxuli.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220525_Daxuli.csv_5B40A671C3D04E4CBE36DDE8A53FE13E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Cases (CoronaData_Country_20220525_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220525_Daxuli.csv]</parent-name>
+            <remote-alias>Total Cases</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220525_Daxuli.csv_5B40A671C3D04E4CBE36DDE8A53FE13E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Cases (CoronaData_Country_20220525_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220525_Daxuli.csv]</parent-name>
+            <remote-alias>New Cases</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220525_Daxuli.csv_5B40A671C3D04E4CBE36DDE8A53FE13E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Deaths (CoronaData_Country_20220525_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220525_Daxuli.csv]</parent-name>
+            <remote-alias>Total Deaths</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220525_Daxuli.csv_5B40A671C3D04E4CBE36DDE8A53FE13E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Deaths (CoronaData_Country_20220525_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220525_Daxuli.csv]</parent-name>
+            <remote-alias>New Deaths</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220525_Daxuli.csv_5B40A671C3D04E4CBE36DDE8A53FE13E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Recoverd</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Recoverd (CoronaData_Country_20220525_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220525_Daxuli.csv]</parent-name>
+            <remote-alias>Total Recoverd</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220525_Daxuli.csv_5B40A671C3D04E4CBE36DDE8A53FE13E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Recoverd</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Recoverd (CoronaData_Country_20220525_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220525_Daxuli.csv]</parent-name>
+            <remote-alias>New Recoverd</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220525_Daxuli.csv_5B40A671C3D04E4CBE36DDE8A53FE13E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Active Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Active Cases (CoronaData_Country_20220525_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220525_Daxuli.csv]</parent-name>
+            <remote-alias>Active Cases</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220525_Daxuli.csv_5B40A671C3D04E4CBE36DDE8A53FE13E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Serious Cases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Serious Cases (CoronaData_Country_20220525_Daxuli.csv)]</local-name>
+            <parent-name>[CoronaData_Country_20220525_Daxuli.csv]</parent-name>
+            <remote-alias>Serious Cases</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[CoronaData_Country_20220525_Daxuli.csv_5B40A671C3D04E4CBE36DDE8A53FE13E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Cases (CoronaData_Country_20220521_Daxuli.csv):qk]&quot;' value='21/5/2022' />
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Cases (CoronaData_Country_20220522_Daxuli.csv):qk]&quot;' value='22/5/2022' />
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Cases (CoronaData_Country_20220523_Daxuli.csv):qk]&quot;' value='23/5/2022' />
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Cases (CoronaData_Country_20220524_Daxuli.csv):qk]&quot;' value='24/5/2022' />
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Cases (CoronaData_Country_20220525_Daxuli.csv):qk]&quot;' value='25/5/2022' />
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Cases:qk]&quot;' value='20/5/2022' />
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths (CoronaData_Country_20220521_Daxuli.csv):qk]&quot;' value='21/05/2022' />
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths (CoronaData_Country_20220522_Daxuli.csv):qk]&quot;' value='22/05/2022' />
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths (CoronaData_Country_20220523_Daxuli.csv):qk]&quot;' value='23/05/2022' />
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths (CoronaData_Country_20220524_Daxuli.csv):qk]&quot;' value='24/05/2022' />
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths (CoronaData_Country_20220525_Daxuli.csv):qk]&quot;' value='25/05/2022' />
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths:qk]&quot;' value='20/05/2022' />
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Tota lRecovered:qk]&quot;' value='21-05-2022' />
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Total Recoverd (CoronaData_Country_20220524_Daxuli.csv):qk]&quot;' value='24-05-2022' />
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Total Recoverd (CoronaData_Country_20220525_Daxuli.csv):qk]&quot;' value='25-05-2022' />
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Total Recoverd:qk]&quot;' value='20-05-2022' />
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Total Recovered (CoronaData_Country_20220522_Daxuli.csv):qk]&quot;' value='22-05-2022' />
+          <alias key='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Total Recovered:qk]&quot;' value='23-05-2022' />
+        </aliases>
+      </column>
+      <column caption='Active Cases (CoronaData Country 20220521 Daxuli.csv)' datatype='integer' name='[Active Cases (CoronaData_Country_20220521_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Active Cases (CoronaData Country 20220522 Daxuli.csv)' datatype='integer' name='[Active Cases (CoronaData_Country_20220522_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Active Cases (CoronaData Country 20220523 Daxuli.csv)' datatype='integer' name='[Active Cases (CoronaData_Country_20220523_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Active Cases (CoronaData Country 20220524 Daxuli.csv)' datatype='integer' name='[Active Cases (CoronaData_Country_20220524_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Active Cases (CoronaData Country 20220525 Daxuli.csv)' datatype='integer' name='[Active Cases (CoronaData_Country_20220525_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Country (CoronaData Country 20220521 Daxuli.csv)' datatype='string' name='[Country (CoronaData_Country_20220521_Daxuli.csv)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Country (CoronaData Country 20220522 Daxuli.csv)' datatype='string' name='[Country (CoronaData_Country_20220522_Daxuli.csv)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Country (CoronaData Country 20220523 Daxuli.csv)' datatype='string' name='[Country (CoronaData_Country_20220523_Daxuli.csv)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Country (CoronaData Country 20220524 Daxuli.csv)' datatype='string' name='[Country (CoronaData_Country_20220524_Daxuli.csv)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Country (CoronaData Country 20220525 Daxuli.csv)' datatype='string' name='[Country (CoronaData_Country_20220525_Daxuli.csv)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='F1 (CoronaData Country 20220521 Daxuli.csv)' datatype='integer' name='[F1 (CoronaData_Country_20220521_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='F1 (CoronaData Country 20220522 Daxuli.csv)' datatype='integer' name='[F1 (CoronaData_Country_20220522_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='F1 (CoronaData Country 20220523 Daxuli.csv)' datatype='integer' name='[F1 (CoronaData_Country_20220523_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='F1 (CoronaData Country 20220524 Daxuli.csv)' datatype='integer' name='[F1 (CoronaData_Country_20220524_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='F1 (CoronaData Country 20220525 Daxuli.csv)' datatype='integer' name='[F1 (CoronaData_Country_20220525_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='New Cases (CoronaData Country 20220521 Daxuli.csv)' datatype='integer' name='[New Cases (CoronaData_Country_20220521_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='New Cases (CoronaData Country 20220522 Daxuli.csv)' datatype='integer' name='[New Cases (CoronaData_Country_20220522_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='New Cases (CoronaData Country 20220523 Daxuli.csv)' datatype='integer' name='[New Cases (CoronaData_Country_20220523_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='New Cases (CoronaData Country 20220524 Daxuli.csv)' datatype='integer' name='[New Cases (CoronaData_Country_20220524_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='New Cases (CoronaData Country 20220525 Daxuli.csv)' datatype='integer' name='[New Cases (CoronaData_Country_20220525_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[New Cases]' role='measure' type='quantitative' />
+      <column caption='New Deaths (CoronaData Country 20220521 Daxuli.csv)' datatype='integer' name='[New Deaths (CoronaData_Country_20220521_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='New Deaths (CoronaData Country 20220522 Daxuli.csv)' datatype='integer' name='[New Deaths (CoronaData_Country_20220522_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='New Deaths (CoronaData Country 20220523 Daxuli.csv)' datatype='integer' name='[New Deaths (CoronaData_Country_20220523_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='New Deaths (CoronaData Country 20220524 Daxuli.csv)' datatype='integer' name='[New Deaths (CoronaData_Country_20220524_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='New Deaths (CoronaData Country 20220525 Daxuli.csv)' datatype='integer' name='[New Deaths (CoronaData_Country_20220525_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[New Deaths]' role='measure' type='quantitative' />
+      <column caption='New Recoverd (CoronaData Country 20220524 Daxuli.csv)' datatype='integer' name='[New Recoverd (CoronaData_Country_20220524_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='New Recoverd (CoronaData Country 20220525 Daxuli.csv)' datatype='integer' name='[New Recoverd (CoronaData_Country_20220525_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='New Recovered (CoronaData Country 20220521 Daxuli.csv)' datatype='integer' name='[New Recovered (CoronaData_Country_20220521_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='New Recovered (CoronaData Country 20220522 Daxuli.csv)' datatype='integer' name='[New Recovered (CoronaData_Country_20220522_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Ranking (CoronaData Country 20220521 Daxuli.csv)' datatype='integer' name='[Ranking (CoronaData_Country_20220521_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Ranking (CoronaData Country 20220522 Daxuli.csv)' datatype='integer' name='[Ranking (CoronaData_Country_20220522_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Ranking (CoronaData Country 20220523 Daxuli.csv)' datatype='integer' name='[Ranking (CoronaData_Country_20220523_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Ranking (CoronaData Country 20220524 Daxuli.csv)' datatype='integer' name='[Ranking (CoronaData_Country_20220524_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Ranking (CoronaData Country 20220525 Daxuli.csv)' datatype='integer' name='[Ranking (CoronaData_Country_20220525_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Serious Cases (CoronaData Country 20220521 Daxuli.csv)' datatype='integer' name='[Serious Cases (CoronaData_Country_20220521_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Serious Cases (CoronaData Country 20220522 Daxuli.csv)' datatype='integer' name='[Serious Cases (CoronaData_Country_20220522_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Serious Cases (CoronaData Country 20220523 Daxuli.csv)' datatype='integer' name='[Serious Cases (CoronaData_Country_20220523_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Serious Cases (CoronaData Country 20220524 Daxuli.csv)' datatype='integer' name='[Serious Cases (CoronaData_Country_20220524_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Serious Cases (CoronaData Country 20220525 Daxuli.csv)' datatype='integer' name='[Serious Cases (CoronaData_Country_20220525_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Tota lRecovered]' role='measure' type='quantitative' />
+      <column caption='Total Cases (CoronaData Country 20220521 Daxuli.csv)' datatype='integer' name='[Total Cases (CoronaData_Country_20220521_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Total Cases (CoronaData Country 20220522 Daxuli.csv)' datatype='integer' name='[Total Cases (CoronaData_Country_20220522_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Total Cases (CoronaData Country 20220523 Daxuli.csv)' datatype='integer' name='[Total Cases (CoronaData_Country_20220523_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Total Cases (CoronaData Country 20220524 Daxuli.csv)' datatype='integer' name='[Total Cases (CoronaData_Country_20220524_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Total Cases (CoronaData Country 20220525 Daxuli.csv)' datatype='integer' name='[Total Cases (CoronaData_Country_20220525_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Total Deaths (CoronaData Country 20220521 Daxuli.csv)' datatype='integer' name='[Total Deaths (CoronaData_Country_20220521_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Total Deaths (CoronaData Country 20220522 Daxuli.csv)' datatype='integer' name='[Total Deaths (CoronaData_Country_20220522_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Total Deaths (CoronaData Country 20220523 Daxuli.csv)' datatype='integer' name='[Total Deaths (CoronaData_Country_20220523_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Total Deaths (CoronaData Country 20220524 Daxuli.csv)' datatype='integer' name='[Total Deaths (CoronaData_Country_20220524_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Total Deaths (CoronaData Country 20220525 Daxuli.csv)' datatype='integer' name='[Total Deaths (CoronaData_Country_20220525_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Total Recoverd (CoronaData Country 20220523 Daxuli.csv)' datatype='integer' name='[Total Recoverd (CoronaData_Country_20220523_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Total Recoverd (CoronaData Country 20220524 Daxuli.csv)' datatype='integer' name='[Total Recoverd (CoronaData_Country_20220524_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Total Recoverd (CoronaData Country 20220525 Daxuli.csv)' datatype='integer' name='[Total Recoverd (CoronaData_Country_20220525_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Total Recoverd]' role='measure' type='quantitative' />
+      <column caption='Total Recovered (CoronaData Country 20220522 Daxuli.csv)' datatype='integer' name='[Total Recovered (CoronaData_Country_20220522_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Total Recovered]' role='measure' type='quantitative' />
+      <column caption='Unnamed: 0 (CoronaData Country 20220521 Daxuli.csv)' datatype='integer' name='[Unnamed: 0 (CoronaData_Country_20220521_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Unnamed: 0 (CoronaData Country 20220522 Daxuli.csv)' datatype='integer' name='[Unnamed: 0 (CoronaData_Country_20220522_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Unnamed: 0 (CoronaData Country 20220523 Daxuli.csv)' datatype='integer' name='[Unnamed: 0 (CoronaData_Country_20220523_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Unnamed: 0 (CoronaData Country 20220524 Daxuli.csv)' datatype='integer' name='[Unnamed: 0 (CoronaData_Country_20220524_Daxuli.csv)]' role='measure' type='quantitative' />
+      <column caption='Unnamed: 0 (CoronaData Country 20220525 Daxuli.csv)' datatype='integer' name='[Unnamed: 0 (CoronaData_Country_20220525_Daxuli.csv)]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='CoronaData_Country_20220520_Daxuli.csv' datatype='table' name='[__tableau_internal_object_id__].[CoronaData_Country_20220520_Daxuli.csv_2856A13048084A698524145D1DBE75BD]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='CoronaData_Country_20220521_Daxuli.csv' datatype='table' name='[__tableau_internal_object_id__].[CoronaData_Country_20220521_Daxuli.csv_2B3ADC32FF6A4CDC9C0C1F7EFA75D651]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='CoronaData_Country_20220522_Daxuli.csv' datatype='table' name='[__tableau_internal_object_id__].[CoronaData_Country_20220522_Daxuli.csv_7296D2958CAA4DC38A576113B66CFE09]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='CoronaData_Country_20220523_Daxuli.csv' datatype='table' name='[__tableau_internal_object_id__].[CoronaData_Country_20220523_Daxuli.csv_35713CEF1581473EBD61909F8AA4FEA5]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='CoronaData_Country_20220524_Daxuli.csv' datatype='table' name='[__tableau_internal_object_id__].[CoronaData_Country_20220524_Daxuli.csv_F0D69C2B391246758B1D2855A8485B5B]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='CoronaData_Country_20220525_Daxuli.csv' datatype='table' name='[__tableau_internal_object_id__].[CoronaData_Country_20220525_Daxuli.csv_5B40A671C3D04E4CBE36DDE8A53FE13E]' role='measure' type='quantitative' />
+      <column-instance column='[New Cases (CoronaData_Country_20220521_Daxuli.csv)]' derivation='Sum' name='[sum:New Cases (CoronaData_Country_20220521_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Cases (CoronaData_Country_20220522_Daxuli.csv)]' derivation='Sum' name='[sum:New Cases (CoronaData_Country_20220522_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Cases (CoronaData_Country_20220523_Daxuli.csv)]' derivation='Sum' name='[sum:New Cases (CoronaData_Country_20220523_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Cases (CoronaData_Country_20220524_Daxuli.csv)]' derivation='Sum' name='[sum:New Cases (CoronaData_Country_20220524_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Cases (CoronaData_Country_20220525_Daxuli.csv)]' derivation='Sum' name='[sum:New Cases (CoronaData_Country_20220525_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Cases]' derivation='Sum' name='[sum:New Cases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Deaths (CoronaData_Country_20220521_Daxuli.csv)]' derivation='Sum' name='[sum:New Deaths (CoronaData_Country_20220521_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Deaths (CoronaData_Country_20220522_Daxuli.csv)]' derivation='Sum' name='[sum:New Deaths (CoronaData_Country_20220522_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Deaths (CoronaData_Country_20220523_Daxuli.csv)]' derivation='Sum' name='[sum:New Deaths (CoronaData_Country_20220523_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Deaths (CoronaData_Country_20220524_Daxuli.csv)]' derivation='Sum' name='[sum:New Deaths (CoronaData_Country_20220524_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Deaths (CoronaData_Country_20220525_Daxuli.csv)]' derivation='Sum' name='[sum:New Deaths (CoronaData_Country_20220525_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Deaths]' derivation='Sum' name='[sum:New Deaths:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Tota lRecovered]' derivation='Sum' name='[sum:Tota lRecovered:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total Recoverd (CoronaData_Country_20220524_Daxuli.csv)]' derivation='Sum' name='[sum:Total Recoverd (CoronaData_Country_20220524_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total Recoverd (CoronaData_Country_20220525_Daxuli.csv)]' derivation='Sum' name='[sum:Total Recoverd (CoronaData_Country_20220525_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total Recoverd]' derivation='Sum' name='[sum:Total Recoverd:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total Recovered (CoronaData_Country_20220522_Daxuli.csv)]' derivation='Sum' name='[sum:Total Recovered (CoronaData_Country_20220522_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total Recovered]' derivation='Sum' name='[sum:Total Recovered:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='CoronaData_Country_20220520_Daxuli.csv' id='CoronaData_Country_20220520_Daxuli.csv_2856A13048084A698524145D1DBE75BD'>
+            <properties context=''>
+              <relation connection='textscan.0u2lvde1br7bje17t1efx0rpmfeu' name='CoronaData_Country_20220520_Daxuli.csv' table='[CoronaData_Country_20220520_Daxuli#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+                  <column datatype='integer' name='Ranking' ordinal='2' />
+                  <column datatype='string' name='Country' ordinal='3' />
+                  <column datatype='integer' name='Total Cases' ordinal='4' />
+                  <column datatype='integer' name='New Cases' ordinal='5' />
+                  <column datatype='integer' name='Total Deaths' ordinal='6' />
+                  <column datatype='integer' name='New Deaths' ordinal='7' />
+                  <column datatype='integer' name='Total Recovered' ordinal='8' />
+                  <column datatype='integer' name='New Recovered' ordinal='9' />
+                  <column datatype='integer' name='Active Cases' ordinal='10' />
+                  <column datatype='integer' name='Serious Cases' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='CoronaData_Country_20220521_Daxuli.csv' id='CoronaData_Country_20220521_Daxuli.csv_2B3ADC32FF6A4CDC9C0C1F7EFA75D651'>
+            <properties context=''>
+              <relation connection='textscan.0u2lvde1br7bje17t1efx0rpmfeu' name='CoronaData_Country_20220521_Daxuli.csv' table='[CoronaData_Country_20220521_Daxuli#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+                  <column datatype='integer' name='Ranking' ordinal='2' />
+                  <column datatype='string' name='Country' ordinal='3' />
+                  <column datatype='integer' name='Total Cases' ordinal='4' />
+                  <column datatype='integer' name='New Cases' ordinal='5' />
+                  <column datatype='integer' name='Total Deaths' ordinal='6' />
+                  <column datatype='integer' name='New Deaths' ordinal='7' />
+                  <column datatype='integer' name='Tota lRecovered' ordinal='8' />
+                  <column datatype='integer' name='New Recovered' ordinal='9' />
+                  <column datatype='integer' name='Active Cases' ordinal='10' />
+                  <column datatype='integer' name='Serious Cases' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='CoronaData_Country_20220522_Daxuli.csv' id='CoronaData_Country_20220522_Daxuli.csv_7296D2958CAA4DC38A576113B66CFE09'>
+            <properties context=''>
+              <relation connection='textscan.0u2lvde1br7bje17t1efx0rpmfeu' name='CoronaData_Country_20220522_Daxuli.csv' table='[CoronaData_Country_20220522_Daxuli#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+                  <column datatype='integer' name='Ranking' ordinal='2' />
+                  <column datatype='string' name='Country' ordinal='3' />
+                  <column datatype='integer' name='Total Cases' ordinal='4' />
+                  <column datatype='integer' name='New Cases' ordinal='5' />
+                  <column datatype='integer' name='Total Deaths' ordinal='6' />
+                  <column datatype='integer' name='New Deaths' ordinal='7' />
+                  <column datatype='integer' name='Total Recovered' ordinal='8' />
+                  <column datatype='integer' name='New Recovered' ordinal='9' />
+                  <column datatype='integer' name='Active Cases' ordinal='10' />
+                  <column datatype='integer' name='Serious Cases' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='CoronaData_Country_20220523_Daxuli.csv' id='CoronaData_Country_20220523_Daxuli.csv_35713CEF1581473EBD61909F8AA4FEA5'>
+            <properties context=''>
+              <relation connection='textscan.0u2lvde1br7bje17t1efx0rpmfeu' name='CoronaData_Country_20220523_Daxuli.csv' table='[CoronaData_Country_20220523_Daxuli#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+                  <column datatype='integer' name='Ranking' ordinal='2' />
+                  <column datatype='string' name='Country' ordinal='3' />
+                  <column datatype='integer' name='Total Cases' ordinal='4' />
+                  <column datatype='integer' name='New Cases' ordinal='5' />
+                  <column datatype='integer' name='Total Deaths' ordinal='6' />
+                  <column datatype='integer' name='New Deaths' ordinal='7' />
+                  <column datatype='integer' name='Total Recoverd' ordinal='8' />
+                  <column datatype='integer' name='New Recoverd' ordinal='9' />
+                  <column datatype='integer' name='Active Cases' ordinal='10' />
+                  <column datatype='integer' name='Serious Cases' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='CoronaData_Country_20220524_Daxuli.csv' id='CoronaData_Country_20220524_Daxuli.csv_F0D69C2B391246758B1D2855A8485B5B'>
+            <properties context=''>
+              <relation connection='textscan.0u2lvde1br7bje17t1efx0rpmfeu' name='CoronaData_Country_20220524_Daxuli.csv' table='[CoronaData_Country_20220524_Daxuli#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+                  <column datatype='integer' name='Ranking' ordinal='2' />
+                  <column datatype='string' name='Country' ordinal='3' />
+                  <column datatype='integer' name='Total Cases' ordinal='4' />
+                  <column datatype='integer' name='New Cases' ordinal='5' />
+                  <column datatype='integer' name='Total Deaths' ordinal='6' />
+                  <column datatype='integer' name='New Deaths' ordinal='7' />
+                  <column datatype='integer' name='Total Recoverd' ordinal='8' />
+                  <column datatype='integer' name='New Recoverd' ordinal='9' />
+                  <column datatype='integer' name='Active Cases' ordinal='10' />
+                  <column datatype='integer' name='Serious Cases' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='CoronaData_Country_20220525_Daxuli.csv' id='CoronaData_Country_20220525_Daxuli.csv_5B40A671C3D04E4CBE36DDE8A53FE13E'>
+            <properties context=''>
+              <relation connection='textscan.0u2lvde1br7bje17t1efx0rpmfeu' name='CoronaData_Country_20220525_Daxuli.csv' table='[CoronaData_Country_20220525_Daxuli#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+                  <column datatype='integer' name='Ranking' ordinal='2' />
+                  <column datatype='string' name='Country' ordinal='3' />
+                  <column datatype='integer' name='Total Cases' ordinal='4' />
+                  <column datatype='integer' name='New Cases' ordinal='5' />
+                  <column datatype='integer' name='Total Deaths' ordinal='6' />
+                  <column datatype='integer' name='New Deaths' ordinal='7' />
+                  <column datatype='integer' name='Total Recoverd' ordinal='8' />
+                  <column datatype='integer' name='New Recoverd' ordinal='9' />
+                  <column datatype='integer' name='Active Cases' ordinal='10' />
+                  <column datatype='integer' name='Serious Cases' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[Country]' />
+              <expression op='[Country (CoronaData_Country_20220521_Daxuli.csv)]' />
+            </expression>
+            <first-end-point object-id='CoronaData_Country_20220520_Daxuli.csv_2856A13048084A698524145D1DBE75BD' />
+            <second-end-point object-id='CoronaData_Country_20220521_Daxuli.csv_2B3ADC32FF6A4CDC9C0C1F7EFA75D651' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[Country (CoronaData_Country_20220521_Daxuli.csv)]' />
+              <expression op='[Country (CoronaData_Country_20220522_Daxuli.csv)]' />
+            </expression>
+            <first-end-point object-id='CoronaData_Country_20220521_Daxuli.csv_2B3ADC32FF6A4CDC9C0C1F7EFA75D651' />
+            <second-end-point object-id='CoronaData_Country_20220522_Daxuli.csv_7296D2958CAA4DC38A576113B66CFE09' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[Country (CoronaData_Country_20220522_Daxuli.csv)]' />
+              <expression op='[Country (CoronaData_Country_20220523_Daxuli.csv)]' />
+            </expression>
+            <first-end-point object-id='CoronaData_Country_20220522_Daxuli.csv_7296D2958CAA4DC38A576113B66CFE09' />
+            <second-end-point object-id='CoronaData_Country_20220523_Daxuli.csv_35713CEF1581473EBD61909F8AA4FEA5' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[Country (CoronaData_Country_20220523_Daxuli.csv)]' />
+              <expression op='[Country (CoronaData_Country_20220524_Daxuli.csv)]' />
+            </expression>
+            <first-end-point object-id='CoronaData_Country_20220523_Daxuli.csv_35713CEF1581473EBD61909F8AA4FEA5' />
+            <second-end-point object-id='CoronaData_Country_20220524_Daxuli.csv_F0D69C2B391246758B1D2855A8485B5B' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[Country (CoronaData_Country_20220524_Daxuli.csv)]' />
+              <expression op='[Country (CoronaData_Country_20220525_Daxuli.csv)]' />
+            </expression>
+            <first-end-point object-id='CoronaData_Country_20220524_Daxuli.csv_F0D69C2B391246758B1D2855A8485B5B' />
+            <second-end-point object-id='CoronaData_Country_20220525_Daxuli.csv_5B40A671C3D04E4CBE36DDE8A53FE13E' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Số ca mất mới trên toàn cầu bởi COVID từ 20-25/5/2022
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CoronaData_Country_Daxuli+' name='federated.1dmu98u184zwap18gwyel0qv1xdd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dmu98u184zwap18gwyel0qv1xdd'>
+            <column caption='New Deaths (CoronaData Country 20220521 Daxuli.csv)' datatype='integer' name='[New Deaths (CoronaData_Country_20220521_Daxuli.csv)]' role='measure' type='quantitative' />
+            <column caption='New Deaths (CoronaData Country 20220522 Daxuli.csv)' datatype='integer' name='[New Deaths (CoronaData_Country_20220522_Daxuli.csv)]' role='measure' type='quantitative' />
+            <column caption='New Deaths (CoronaData Country 20220523 Daxuli.csv)' datatype='integer' name='[New Deaths (CoronaData_Country_20220523_Daxuli.csv)]' role='measure' type='quantitative' />
+            <column caption='New Deaths (CoronaData Country 20220524 Daxuli.csv)' datatype='integer' name='[New Deaths (CoronaData_Country_20220524_Daxuli.csv)]' role='measure' type='quantitative' />
+            <column caption='New Deaths (CoronaData Country 20220525 Daxuli.csv)' datatype='integer' name='[New Deaths (CoronaData_Country_20220525_Daxuli.csv)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[New Deaths]' role='measure' type='quantitative' />
+            <column-instance column='[New Deaths (CoronaData_Country_20220521_Daxuli.csv)]' derivation='Sum' name='[sum:New Deaths (CoronaData_Country_20220521_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Deaths (CoronaData_Country_20220522_Daxuli.csv)]' derivation='Sum' name='[sum:New Deaths (CoronaData_Country_20220522_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Deaths (CoronaData_Country_20220523_Daxuli.csv)]' derivation='Sum' name='[sum:New Deaths (CoronaData_Country_20220523_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Deaths (CoronaData_Country_20220524_Daxuli.csv)]' derivation='Sum' name='[sum:New Deaths (CoronaData_Country_20220524_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Deaths (CoronaData_Country_20220525_Daxuli.csv)]' derivation='Sum' name='[sum:New Deaths (CoronaData_Country_20220525_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Deaths]' derivation='Sum' name='[sum:New Deaths:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1dmu98u184zwap18gwyel0qv1xdd].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths (CoronaData_Country_20220521_Daxuli.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths (CoronaData_Country_20220522_Daxuli.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths (CoronaData_Country_20220523_Daxuli.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths (CoronaData_Country_20220524_Daxuli.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths (CoronaData_Country_20220525_Daxuli.csv):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1dmu98u184zwap18gwyel0qv1xdd].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths (CoronaData_Country_20220521_Daxuli.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths (CoronaData_Country_20220522_Daxuli.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths (CoronaData_Country_20220523_Daxuli.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths (CoronaData_Country_20220524_Daxuli.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Deaths (CoronaData_Country_20220525_Daxuli.csv):qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1dmu98u184zwap18gwyel0qv1xdd].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1dmu98u184zwap18gwyel0qv1xdd].[:Measure Names]' value='179' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#333333' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1dmu98u184zwap18gwyel0qv1xdd].[Multiple Values]</rows>
+        <cols>[federated.1dmu98u184zwap18gwyel0qv1xdd].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{78275FB3-F84A-4D16-A09D-FB51B414A31D}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Số ca mắc bênh mới trên toàn cầu bởi COVID từ 20-25/5/2022</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CoronaData_Country_Daxuli+' name='federated.1dmu98u184zwap18gwyel0qv1xdd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dmu98u184zwap18gwyel0qv1xdd'>
+            <column caption='New Cases (CoronaData Country 20220521 Daxuli.csv)' datatype='integer' name='[New Cases (CoronaData_Country_20220521_Daxuli.csv)]' role='measure' type='quantitative' />
+            <column caption='New Cases (CoronaData Country 20220522 Daxuli.csv)' datatype='integer' name='[New Cases (CoronaData_Country_20220522_Daxuli.csv)]' role='measure' type='quantitative' />
+            <column caption='New Cases (CoronaData Country 20220523 Daxuli.csv)' datatype='integer' name='[New Cases (CoronaData_Country_20220523_Daxuli.csv)]' role='measure' type='quantitative' />
+            <column caption='New Cases (CoronaData Country 20220524 Daxuli.csv)' datatype='integer' name='[New Cases (CoronaData_Country_20220524_Daxuli.csv)]' role='measure' type='quantitative' />
+            <column caption='New Cases (CoronaData Country 20220525 Daxuli.csv)' datatype='integer' name='[New Cases (CoronaData_Country_20220525_Daxuli.csv)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[New Cases]' role='measure' type='quantitative' />
+            <column-instance column='[New Cases (CoronaData_Country_20220521_Daxuli.csv)]' derivation='Sum' name='[sum:New Cases (CoronaData_Country_20220521_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Cases (CoronaData_Country_20220522_Daxuli.csv)]' derivation='Sum' name='[sum:New Cases (CoronaData_Country_20220522_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Cases (CoronaData_Country_20220523_Daxuli.csv)]' derivation='Sum' name='[sum:New Cases (CoronaData_Country_20220523_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Cases (CoronaData_Country_20220524_Daxuli.csv)]' derivation='Sum' name='[sum:New Cases (CoronaData_Country_20220524_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Cases (CoronaData_Country_20220525_Daxuli.csv)]' derivation='Sum' name='[sum:New Cases (CoronaData_Country_20220525_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Cases]' derivation='Sum' name='[sum:New Cases:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1dmu98u184zwap18gwyel0qv1xdd].[:Measure Names]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Cases:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Cases (CoronaData_Country_20220521_Daxuli.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Cases (CoronaData_Country_20220522_Daxuli.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Cases (CoronaData_Country_20220523_Daxuli.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Cases (CoronaData_Country_20220524_Daxuli.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:New Cases (CoronaData_Country_20220525_Daxuli.csv):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1dmu98u184zwap18gwyel0qv1xdd].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1dmu98u184zwap18gwyel0qv1xdd].[:Measure Names]' value='181' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+                <format attr='mark-markers-mode' value='all' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1dmu98u184zwap18gwyel0qv1xdd].[Multiple Values]</rows>
+        <cols>[federated.1dmu98u184zwap18gwyel0qv1xdd].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{B02EC5CA-67B5-49E9-8C51-EDFA29F835D6}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='CoronaData_Country_Daxuli+' name='federated.1dmu98u184zwap18gwyel0qv1xdd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dmu98u184zwap18gwyel0qv1xdd'>
+            <column datatype='integer' name='[Tota lRecovered]' role='measure' type='quantitative' />
+            <column caption='Total Recoverd (CoronaData Country 20220524 Daxuli.csv)' datatype='integer' name='[Total Recoverd (CoronaData_Country_20220524_Daxuli.csv)]' role='measure' type='quantitative' />
+            <column caption='Total Recoverd (CoronaData Country 20220525 Daxuli.csv)' datatype='integer' name='[Total Recoverd (CoronaData_Country_20220525_Daxuli.csv)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total Recoverd]' role='measure' type='quantitative' />
+            <column caption='Total Recovered (CoronaData Country 20220522 Daxuli.csv)' datatype='integer' name='[Total Recovered (CoronaData_Country_20220522_Daxuli.csv)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total Recovered]' role='measure' type='quantitative' />
+            <column-instance column='[Tota lRecovered]' derivation='Sum' name='[sum:Tota lRecovered:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Recoverd (CoronaData_Country_20220524_Daxuli.csv)]' derivation='Sum' name='[sum:Total Recoverd (CoronaData_Country_20220524_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Recoverd (CoronaData_Country_20220525_Daxuli.csv)]' derivation='Sum' name='[sum:Total Recoverd (CoronaData_Country_20220525_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Recoverd]' derivation='Sum' name='[sum:Total Recoverd:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Recovered (CoronaData_Country_20220522_Daxuli.csv)]' derivation='Sum' name='[sum:Total Recovered (CoronaData_Country_20220522_Daxuli.csv):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Recovered]' derivation='Sum' name='[sum:Total Recovered:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1dmu98u184zwap18gwyel0qv1xdd].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Total Recoverd:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Tota lRecovered:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Total Recovered (CoronaData_Country_20220522_Daxuli.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Total Recovered:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Total Recoverd (CoronaData_Country_20220524_Daxuli.csv):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Total Recoverd (CoronaData_Country_20220525_Daxuli.csv):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1dmu98u184zwap18gwyel0qv1xdd].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Total Recoverd:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Tota lRecovered:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Total Recovered (CoronaData_Country_20220522_Daxuli.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Total Recovered:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Total Recoverd (CoronaData_Country_20220524_Daxuli.csv):qk]&quot;</bucket>
+              <bucket>&quot;[federated.1dmu98u184zwap18gwyel0qv1xdd].[sum:Total Recoverd (CoronaData_Country_20220525_Daxuli.csv):qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1dmu98u184zwap18gwyel0qv1xdd].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1dmu98u184zwap18gwyel0qv1xdd].[:Measure Names]' value='178' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Polygon' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#8cd17d' />
+                <format attr='mark-transparency' value='216' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1dmu98u184zwap18gwyel0qv1xdd].[Multiple Values]</rows>
+        <cols>[federated.1dmu98u184zwap18gwyel0qv1xdd].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{B19BB0C3-1B2B-4FDA-A878-961CA7AECB2B}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dmu98u184zwap18gwyel0qv1xdd].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F0F4E1C0-C8D9-4193-85F7-59A97A7C0A4C}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dmu98u184zwap18gwyel0qv1xdd].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{1CE230B9-9261-4488-ACB9-760855EA1A68}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dmu98u184zwap18gwyel0qv1xdd].[:Measure Names]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{ACA8E50F-1DBD-4214-98DC-49EE11B20D4A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      0v+RsAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
